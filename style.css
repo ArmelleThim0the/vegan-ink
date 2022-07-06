@@ -1,3 +1,8 @@
+#div-1
+{
+background-color: black;
+}
+
 ul
 {
     display: flex;
@@ -11,6 +16,41 @@ ul
 
 #div-2
 {
+    margin-top: 0.5%;
+}
+
+.contenant {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  .texte_centrer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+img.tattoo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-block-end-color: white;
+    top: 400px;
+    position: absolute;
+}
+
+img.twittube
+{
+display: block;
+
+}
+
+#div-3
+{
     background-color: white;
 }
+
 
